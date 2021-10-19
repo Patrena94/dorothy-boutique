@@ -1,4 +1,4 @@
-import { useReducer } from "react";
+// import { reducer}  from "react";
 import {
   UPDATE_PRODUCTS,
   ADD_TO_CART,
@@ -19,7 +19,7 @@ const initialState={
   currentCategory:'',
 }
 
-export const reducer = (state =initialState, action) => {
+export const reducers = (state =initialState, action) => {
   switch (action.type) {
     case UPDATE_PRODUCTS:
       return {
@@ -93,3 +93,5 @@ export const reducer = (state =initialState, action) => {
   }
 };
 //removed single function in order to accomodate code for store.js line 4
+
+export default reducers;

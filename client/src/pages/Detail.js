@@ -17,7 +17,7 @@ import spinner from '../assets/spinner.gif';
 function Detail() {
  const dispatch = useDispatch();
  const state = useSelector((state) => state);
- 
+
   const { id } = useParams();
 
   const [currentProduct, setCurrentProduct] = useState({});
@@ -27,7 +27,7 @@ function Detail() {
   const { products, cart } = state;
 
   useEffect(() => {
-    // already in global store
+    // already in Redux store
     if (products.length) {
       setCurrentProduct(products.find((product) => product._id === id));
     }

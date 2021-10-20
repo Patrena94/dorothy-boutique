@@ -1,13 +1,12 @@
 # dorothy-boutique
-# apple-book-worm
 
 # License
    
-![Build Status](https://img.shields.io/github/license/Patrena94/apple-book-worm)  
+![Build Status](https://img.shields.io/github/license/Patrena94/dorothy-boutique)  
 
 
  # Description
- The Apple Book Worm is a fully functioning Google Books API search engin built with a Restful API, and refactored to be a GraphQL API built with Apollo Server. The appp was built using the Mern stack, with a react front end, MongoDB database and Node.js/Express.js server and API.
+ The Dorothy Boutique Store is a refactor code of the e-commerce platform shop-shop from global state to Redux.
 
 
  # Table of Content 
@@ -25,6 +24,8 @@
 
  7.[Screenshots](#Screenshots)
 
+ 8.[Source](#Source)
+
  # Questions  
 
  Individuals with questions should contact me at patrena@sbcglobal.net.  You may also review my portfolio at Patrena Github repository(https://github.com/Patrena94).
@@ -32,13 +33,13 @@
 
  
 # Installation
- The user will need install React.  The user's may install react by utilizing npx create-react-app portofolio <app name>. For the purpose of this project npm install -g create-react-app followed by npx create-react-app.  The following program will need to be installed as npm install react-bootstrap@1.5.2; npm install react-bootstrap@next bootstrap@5.1.1; npm i react-grid; npm i apollo-boost;  and npm i @apollo/client.  The user will need to type npm run develop to initiate the program directly in the browser on an available localhost port.
+ The user will need install npm install @reduxjs/toolkit and npm install react-redux. The user will need to review the redux tutorial to convert th code from global state to redux.
 
 # Usage
  
- The user will need to vise the utilize this link https://apple-book-worm2.herokuapp.com/ to review the application.  The user will need to type in the title of the book, that they wish to view.  They may save the book by selecting save This book.  The use may review all saved books by selecting See Your Books.  The user will then be able to review and remove books from their personal list. 
+ The user will need to vise the utilize this link https://dorothy-boutique.herokuapp.com/to review the application.  The user will need to review the products that appear on the homepage.  The user has the option to add a product to their cart, remove product from the cart, checkout, and receive a confirmation of purchase.  
 
- Heroku - https://apple-book-worm2.herokuapp.com/
+ Heroku - https://dorothy-boutique.herokuapp.com/
 
 
 # Contribution
@@ -47,8 +48,13 @@ Individual wishing to contribute to the application can fork copy of the code in
 
 # Screenshots
 
-![image](https://user-images.githubusercontent.com/83892241/137663554-9be33e71-0f29-4cbc-bb12-1a390f33d220.png)
-![image](https://user-images.githubusercontent.com/83892241/137663684-bee11c2f-38ea-48b9-b5c0-e50cdbf621ed.png)
+![image](https://user-images.githubusercontent.com/83892241/138015183-dea610e9-816d-4909-81d0-2020af8ff2d7.png)
+![image](https://user-images.githubusercontent.com/83892241/138015265-4591c888-dc1e-491f-97be-138887c59bc7.png)
+![image](https://user-images.githubusercontent.com/83892241/138015108-3076233c-06e7-467f-acc9-e1fe4a979c1c.png)
+![image](https://user-images.githubusercontent.com/83892241/138015133-0cdcc4d5-d782-4559-9ea6-ad0dda2269f2.png)
+![image](https://user-images.githubusercontent.com/83892241/138015315-fb48d549-6c02-4e4d-a90e-d732cb0569d1.png)
+![image](https://user-images.githubusercontent.com/83892241/138015395-ea5f12da-31fe-4ced-aa6b-908be308ea9b.png)
+![image](https://user-images.githubusercontent.com/83892241/138015431-949c6949-526d-4753-9d42-9045c00b53ba.png)
 
 # Sources
 https://redux.js.org/tutorials/fundamentals/part-1-overview
@@ -60,5 +66,7 @@ https://redux.js.org/tutorials/fundamentals/part-1-overview
 ![Build Status](https://img.shields.io/github/languages/top/Patrena94/patrena-ann-smith-portfolio)  
 ![Build Status](https://img.shields.io/github/languages/top/Patrena94/PS-Corp-Budget-Tracker)
 ![Build Status](https://img.shields.io/github/languages/top/Patrena94/stack-underflow)  
+![Build Status](https://img.shields.io/github/languages/top/Patrena94/dorothy-boutique)  
+
 
 
